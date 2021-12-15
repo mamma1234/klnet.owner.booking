@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// reset
+body {
+  font-family: 'Roboto', 'NotoSansCJK', system-ui, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+  line-height: normal;
+  font-weight: 300;
+  color: #000;
+  background: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: inherit;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+input {
+  -webkit-border-radius: 0;
+  -webkit-appearance: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  margin: -1px;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+}
+
+/*basic reset*/
+// * {
+//   outline: 0 !important;
+// }
+// html,
+// body,
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+// div,
+// p,
+// blockquote,
+// pre,
+// code,
+// address,
+// ul,
+// ol,
+// li,
+// menu,
+// nav,
+// section,
+// article,
+// aside,
+// dl,
+// dt,
+// dd,
+// table,
+// thead,
+// tbody,
+// tfoot,
+// label,
+// caption,
+// th,
+// td,
+// form,
+// fieldset,
+// legend,
+// hr,
+// input,
+// button,
+// textarea,
+// object,
+// figure,
+// figcaption {
+//   margin: 0;
+//   padding: 0;
+// }
+// html,
+// body {
+//   width: 100%;
+// }
+// html {
+//   -webkit-touch-callout: none;
+//   // -webkit-user-select: none;
+//   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+// }
+// body {
+//   width: 100%;
+//   background: #fff;
+//   min-width: 320px;
+//   -webkit-text-size-adjust: none;
+//   word-wrap: break-word;
+//   word-break: break-all;
+// }
+// body,
+// input,
+// select,
+// textarea,
+// // button {
+// //   border: none;
+// //   font-size: 12px;
+// //   // font-family: 'Noto Sans KR', sans-serif;
+// //   // color: #727272;
+// // }
+// ul,
+// ol,
+// li {
+//   list-style: none;
+// }
+// table {
+//   width: 100%;
+//   border-spacing: 0;
+//   border-collapse: collapse;
+// }
+// img,
+// fieldset {
+//   border: 0;
+// }
+// address,
+// cite,
+// code,
+// em {
+//   font-style: normal;
+//   font-weight: normal;
+// }
+// label,
+// img,
+// input,
+// select,
+// textarea,
+// button {
+//   vertical-align: middle;
+// }
+// .hide,
+// caption,
+// legend {
+//   line-height: 0;
+//   font-size: 1px;
+//   overflow: hidden;
+// }
+// hr {
+//   display: none;
+// }
+// main,
+// header,
+// section,
+// nav,
+// footer,
+// aside,
+// article,
+// figure {
+//   display: block;
+// }
+// a {
+//   color: #000;
+//   text-decoration: none;
+// }
